@@ -1,0 +1,155 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delilah Restó</title>
+    <link rel="stylesheet" href="css/home.css">
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body>
+    <div class="inicial">Bienvenido a los detalles de la Naturaleza</div>
+
+    <header class="header">
+
+        <div class="headerChild logo"><img src="img/delilahlogo.png" alt="orkardas"></div>
+
+        <div class="headerChild menu">
+            <input type="checkbox" id="btn-menu">
+            <label for="btn-menu"><img src="img/menu-ica.png"></label>
+
+            <nav class="navegacion">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="#">Productos</a>
+                        <ul>
+                            <li><a href="#">producto1</a></li>
+                            <li><a href="#">producto2</a></li>
+                            <li><a href="#">producto3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="headerChild inicioSesion"><a href="sesion.html">Inicia Sesión</a></div>
+
+
+    </header>
+
+    <div class="slider">
+        <ul>
+            <li><img src="img/hamb-clasica.jpg" alt=""></li>
+            <li><img src="img/hamb-especial.png" alt=""></li>
+            <li><img src="img/perro-sencillo.png" alt=""></li>
+            <li><img src="img/perro-especial.png" alt=""></li>
+        </ul>
+    </div>
+
+    <h1 class="encabezado centrado">Nuestros Productos</h1>
+
+    <div class="cursos contenedor">
+        <div class="curso">
+            <img class="imagen-curso" src="img/hamb-clasica.jpg">
+            <div class="info-curso">
+                <h4>Hambuerguesa Clásica</h4>
+                <p>Suculentas</p>
+                <img src="img/estrellas.png">
+                <div class="precio">
+                    <p class="regular">$12000</p>
+                    <p class="oferta">$10000</p>
+                </div>
+                <a href="#" class="boton" data-id="1">Agregar Al Carrito</a>
+            </div>
+        </div>
+        <!--.curso-->
+        <div class="curso">
+            <img class="imagen-curso" src="img/hamb-especial.png">
+            <div class="info-curso">
+                <h4>Perro Sencillo</h4>
+                <p>Suculentas</p>
+                <img src="img/estrellas.png">
+                <div class="precio">
+                    <p class="regular">$18000</p>
+                    <p class="oferta">$15000</p>
+                </div>
+                <a href="#" class="boton" data-id="2">Agregar Al Carrito</a>
+            </div>
+        </div>
+        <!--.curso-->
+        <div class="curso">
+            <img class="imagen-curso" src="img/perro-sencillo.png">
+            <div class="info-curso">
+                <h4>Perro especial</h4>
+                <p>Suculentas</p>
+                <img src="img/estrellas.png">
+                <div class="precio">
+                    <p class="regular">$9000</p>
+                    <p class="oferta">$7000</p>
+                </div>
+                <a href="#" class="boton" data-id="3">Agregar Al Carrito</a>
+            </div>
+        </div>
+        <!--.curso-->
+        <div class="curso">
+            <img class="imagen-curso" src="img/perro-especial.png">
+            <div class="info-curso">
+                <h4>Huerto en tu casa</h4>
+                <p>Siembra</p>
+                <img src="img/estrellas.png">
+                <div class="precio">
+                    <p class="regular">$13000</p>
+                    <p class="oferta">$11000</p>
+                </div>
+                <a href="#" class="boton" data-id="4">Agregar Al Carrito</a>
+            </div>
+        </div>
+    </div>
+    <!--.cursos-->
+
+    <footer id="footer" class="footer">
+        <div class="contenedor">
+            <div class="contenedor-footer">
+                <nav id="principal" class="menu">
+                    <a class="enlace" href="#">Para tu Negocio</a>
+                    <a class="enlace" href="#">Conviertete en Instructor</a>
+                    <a class="enlace" href="#">Aplicaciones Móviles</a>
+                    <a class="enlace" href="#">Soporte</a>
+                    <a class="enlace" href="#">Temas</a>
+                </nav>
+                <nav id="secundaria" class="menu">
+                    <a class="enlace" href="#">¿Quienes Somos?</a>
+                    <a class="enlace" href="#">Empleo</a>
+                    <a class="enlace" href="#">Blog</a>
+                </nav>
+            </div>
+            <!--.contenedor-footer-->
+        </div>
+        <!--.contenedor-->
+    </footer>
+
+    <div class="overlay" id="overlay">
+        <div class="popup" id="popup">
+            <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><img src="img/icono-cerrar.png" alt=""></a>
+            <h3>REGISTRATE</h3>
+            <h4>Y conoce todos nuestros servicios</h4>
+            <form action="">
+                <div class="contenedor-inputs">
+                    <input type="text" placeholder="Nombre" id="Nombre">
+                    <input type="text" placeholder="Apellido" id="Apellido">
+                    <input type="email" placeholder="Email" id="Email">
+                    <input type="number" placeholder="numero telefono" id="Telefono">
+                    <input type="text" placeholder="Pais" id="Pais">
+                    <input type="password" placeholder="Contraseña" id="Pass">
+                </div>
+                <input type="button" class="btn-submit" value="Registrarse" id="submit">
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

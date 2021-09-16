@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delilah Restó</title>
+    <link rel="stylesheet" href="css/sesion.css">
+    
+</head>
+<body>
+    <div class="inicial">Bienvenido a los detalles de la Naturaleza</div>
+
+    <header class="header">
+
+        <div class="headerChild logo"><img src="img/delilahlogo.png" alt="orkardas"></div>
+
+        <div class="headerChild menu">
+            <input type="checkbox" id="btn-menu">
+            <label for="btn-menu"><img src="img/menu-ica.png"></label>
+
+            <nav class="navegacion">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="#">Productos</a>
+                        <ul>
+                            <li><a href="#">producto1</a></li>
+                            <li><a href="#">producto2</a></li>
+                            <li><a href="#">producto3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="headerChild inicioSesion"><a href="index.html">Volver</a></div>
+
+
+    </header>
+    <div id="titulo-registro">
+        <h3>INICIA SESION</h3><hr>
+         <h4>Y pide todo lo que tu quieras!</h4>
+    </div>
+    <br>
+    <div id="registro">
+        
+            <form action="" id="form-inicio">
+                <div class="contenedor-inputs">
+                    <input type="email" placeholder="Correo electrónico" id="usuario"><br>
+                    <input type="password" placeholder="Contraseña" id="password"><br>
+                    <br>
+                </div>
+                <input type="button" id="btn-submit" value="Enviar">
+            </form>
+    </div>
+    <div id="authresult"></div>
+    
+    <script type="text/javascript" src="js/sesion.js"></script>
+</body>
+</html>
